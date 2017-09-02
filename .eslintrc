@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        // must have 4 space indentation
+        "indent": [
+            "error",
+            4
+        ]
+    }
+}
