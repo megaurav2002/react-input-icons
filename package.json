@@ -2,11 +2,12 @@
   "name": "react-input-icons",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint src",
-    "validate": "npm-run-all --parallel test lint"
+    "validate": "npm-run-all --parallel test lint build",
+    "build": "babel --out-dir dist --ignore *.test.js src"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,9 @@
   "keywords": [
     "react",
     "input icons"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "Gaurav Talwar",
   "license": "MIT",
