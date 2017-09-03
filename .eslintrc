@@ -6,5 +6,8 @@
             "error",
             4
         ]
+    },
+    "env": {
+        "jest": true
     }
 }
